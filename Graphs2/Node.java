@@ -1,9 +1,8 @@
-package Graphs;
+package Graphs2;
 
 public class Node {
     
     char data;
-    boolean visited;
 
     Node(char data){
         this.data = data;
