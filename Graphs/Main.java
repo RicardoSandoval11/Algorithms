@@ -29,11 +29,12 @@ public class Main {
         graph.addEdge(4, 0);
         graph.addEdge(4, 2);
     
-        graph.print();
+        //graph.print();
 
-        System.out.println(graph.checkEdge(0, 1));
+        //System.out.println(graph.checkEdge(0, 1));
 
-        graph.depthFirstSearch(1);
+        //graph.depthFirstSearch(1);
+        graph.breadthFirstSearch(2);
     }
 
 }
